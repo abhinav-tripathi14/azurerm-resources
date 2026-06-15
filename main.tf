@@ -53,5 +53,5 @@ resource "azurerm_network_interface" "main" {
 }
 
 resource "null_resource" "test"{
-count =6
+count =1
 }
